@@ -19,7 +19,7 @@ class RealTimeDistanceClient:
         self.actionclient.send_goal(goal)
 
         # wait for the result
-        self.client.wait_for_result()
+        self.actionclient.wait_for_result()
 
         # print result
         print(self.actionclient.get_result())
