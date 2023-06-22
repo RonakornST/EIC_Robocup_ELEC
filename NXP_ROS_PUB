@@ -8,7 +8,7 @@ import rospy
 from geometry_msgs.msg import Pose
 
 
-host = "192.168.1.33 "  # ESP32 IP in the local network
+host = "192.168.1.33"  # ESP32 IP in the local network
 port = 80              # ESP32 Server Port
 array_size = 28        # Size of the byte array to receive (assuming 1 float)
 
