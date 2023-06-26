@@ -1,0 +1,4 @@
+float32 cmd_distance
+---
+bool success
+float32 feedback_distance
